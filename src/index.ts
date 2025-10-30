@@ -1,3 +1,6 @@
+export type Result<T, E> = [true, T] | [false, E];
+
+
 /**
  * 将指定属性的类型替换为 R 中对应的类型
  *
